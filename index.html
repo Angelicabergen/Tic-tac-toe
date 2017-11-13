@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1>Tic-tac-toe Game</h1>
+        <h2>A FreeCodeCamp Project Completed by Angelica Bergen</h2>
+        <div id="playerQuestion">
+            <h2>Which would you like to play as?</h2>
+           <a><button id="playerX" type="button" class="btn btn-primary">X</button></a>
+            <a><button id="playerO" type="button" class="btn btn-primary">O</button></a>
+        </div>
+        <div class="text-center">
+            <button id="start" type="button" class="btn btn-primary">Start</button>
+            <button id="newGame" type="button" class="btn btn-primary">New Game</button>
+            <button id="reset" type="button" class="btn btn-primary">Reset</button>
+        </div>
+        <div><h2 id= "tally"></h2></div>
+        <table id="board">
+            <tr>
+                <td>
+                    <button id="zero" type="button" class="btn"></button>
+                </td>
+                <td>
+                    <button id="one" type="button" class="btn"></button>
+                </td>
+                <td>
+                    <button id="two" type="button" class="btn"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="three" type="button" class="btn"></button>
+                </td>
+                <td>
+                    <button id="four" type="button" class="btn"></button>
+                </td>
+                <td>
+                    <button id="five" type="button" class="btn"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="six" type="button" class="btn"></button>
+                </td>
+                <td>
+                    <button id="seven" type="button" class="btn"></button>
+                </td>
+                <td>
+                    <button id="eight" type="button" class="btn"></button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

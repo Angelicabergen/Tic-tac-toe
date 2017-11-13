@@ -1,0 +1,83 @@
+body{
+  background-image: url(https://images.pexels.com/photos/490411/pexels-photo-490411.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#zero, #one, #two, #three, #four, #five, #six, #seven, #eight{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+}
+td button:hover {
+    border: 2px solid #708090;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  tr{
+      height: 139px;
+  }
+  td {
+    width: 33.333%;
+    border: 6px solid #222;
+  }
+  td {
+    border: 6px solid #222;
+  }
+  td:first-of-type {
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  td:nth-of-type(2) {
+    border-top-color: transparent;
+  }
+  td:nth-of-type(3) {
+    border-right-color: transparent;
+    border-top-color: transparent;
+  }
+  tr:nth-of-type(3) td {
+    border-bottom-color: transparent;
+  }
+  #board{
+      width: 500px;
+      height: 500px;
+      margin: auto;
+     
+  }
+  #start, #reset, #newGame{
+    margin-top: 5vh;   
+    margin-bottom: 2vh;
+  }
+  #start,#reset,#newGame,#playerX,#playerO{
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 125%;
+}
+#playerX:focus, #playerO:focus{
+  background-color:white;
+  color: black;
+}
+#start:hover,#reset:hover ,#newGame:hover ,#playerX:hover ,#playerO:hover {
+  color: black;
+  background-color: white;
+}
+  h1{
+    margin-top: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 60px;
+  }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #tally{
+      margin-bottom: 3vh;
+  }
+  #playerQuestion{
+    margin-top: 5vh;
+  }
